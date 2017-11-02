@@ -5,6 +5,10 @@ function Bomb( _releasePlace) {
     this.expiration = 2 // number of ticks;
 };
 
+/*****
+ * Add missing comments
+ *
+ */
 Bomb.prototype.ticks = function() {
     this.expiration--;
 
